@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>Sign up</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="/index.html" class="header__brand">UserHub</a>
+      <a href="/index.html" class="header__nav">Sign in</a>
+    </header>
+
+    <!-- Auth -->
+    <main class="auth">
+      <div class="auth__container">
+        <!-- Auth header -->
+        <div class="auth__header">
+          <h1>Finish up</h1>
+        </div>
+
+        <!-- Form -->
+        <form action="#" class="form" novalidate>
+          <div class="form__fields">
+            <!-- Full name -->
+            <div class="form__group">
+              <label for="name" class="form__label">Full name</label>
+              <input
+                type="name"
+                name="name"
+                id="name"
+                class="form__input"
+                placeholder="eg. John smith"
+              />
+              <p class="form__hint form__hint--hidden"></p>
+            </div>
+          </div>
+
+          <!-- Submit button -->
+          <div class="form__group">
+            <button type="submit" id="button" class="form__button">
+              Create account
+            </button>
+            <p id="form-status" class="form__status form__status--hidden"></p>
+          </div>
+        </form>
+
+        <!-- Auth link -->
+        <div class="auth__link">
+          Already have an account? <a href="../index.html">Sign in</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

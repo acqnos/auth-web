@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>Sign up</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="/index.html" class="header__brand">UserHub</a>
+      <a href="/index.html" class="header__nav">Sign in</a>
+    </header>
+
+    <!-- Auth -->
+    <main class="auth">
+      <div class="auth__container">
+        <!-- Auth header -->
+        <div class="auth__header">
+          <h1>Create your account</h1>
+          <p>
+            Sign up to get access to a secure and robust authentication
+            platform.
+          </p>
+        </div>
+
+        <!-- Form -->
+        <form action="#" class="form" novalidate>
+          <div class="form__fields">
+            <!-- Email -->
+            <div class="form__group">
+              <label for="email" class="form__label">Email address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form__input"
+                placeholder="eg. john.smith@example.com"
+                autocomplete="email"
+              />
+              <p class="form__hint form__hint--hidden"></p>
+            </div>
+
+            <!-- Password -->
+            <div class="form__group">
+              <label for="password" class="form__label">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form__input"
+                placeholder="Enter your password"
+                autocomplete="new-password"
+              />
+              <p class="form__hint form__hint--hidden"></p>
+            </div>
+          </div>
+
+          <!-- Submit button -->
+          <div class="form__group">
+            <a href="/pages/signup-profile.html" class="form__button"
+              >Continue</a
+            >
+            <p id="form-status" class="form__status form__status--hidden"></p>
+          </div>
+        </form>
+
+        <!-- Auth link -->
+        <div class="auth__link">
+          Already have an account? <a href="../index.html">Sign in</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

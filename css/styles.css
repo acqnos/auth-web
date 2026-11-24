@@ -43,8 +43,7 @@ input {
   font-size: 22px;
   font-weight: 800;
   text-transform: uppercase;
-  padding: 5px 12px;
-  border-radius: 30px;
+  letter-spacing: -0.5px;
 }
 
 .header__nav {
@@ -53,7 +52,7 @@ input {
   color: #ffffff;
   background-color: #1d1d1f;
   border-radius: 5px;
-  cursor: default;
+  cursor: pointer;
 }
 
 .header__nav:hover {
@@ -89,7 +88,7 @@ input {
 
 .auth__header p {
   margin-top: 10px;
-  font-size: 17.5px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -157,7 +156,7 @@ input {
   font-weight: 500;
 }
 
-.form__hint-visible {
+.form__hint--visible {
   display: block;
 }
 
@@ -186,7 +185,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: default;
+  cursor: pointer;
 }
 
 .form__button:hover {

@@ -125,7 +125,7 @@ input {
 
 .auth__link {
   margin-top: -20px;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -253,6 +253,10 @@ input {
     padding: 10px 25px;
   }
 
+  .header__brand {
+    font-size: 20px;
+  }
+
   .header__nav {
     font-size: var(--font-size-xs);
     padding: 7px 12px;
@@ -268,7 +272,7 @@ input {
   }
 
   .auth__link {
-    font-size: var(--font-size-xs);
+    font-size: 12px;
   }
 
   /* Form */
